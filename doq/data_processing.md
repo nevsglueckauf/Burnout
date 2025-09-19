@@ -90,8 +90,12 @@ autonumber
 
 ### Detailsicht auf EDA
 
-- tbd
+- tbd.
 - => Baseline Score: 
+
+### Linear Regression
+
+    - tbd.
 
 ### ML-Modelle
 

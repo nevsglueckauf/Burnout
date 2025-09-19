@@ -1,13 +1,16 @@
-# Burnout
+# Projekt <br><i>Burnout der Arbeiterschaft, <br>Vorhersage von Burnout bei Arbeitnehmern</i>
 
 > [!NOTE]
 > In German language, because of the primary audience (my current <em>continuing education</em>)
-> Aktuell nur ein Platzhalter - hier gibt es (fast) noch nichts zu sehen.
 
 
--  Beiträge zu einer Gruppenarbeit (zusammen mit [Christine](https://github.com/icewomen-hub im September 2025)w, Nadja und Pouria) zur Prüfung »Data Analyst«  bei der IHK München
+## Projektkurzbeschreibung
+-  Gruppenarbeit (zusammen mit [Christine](https://github.com/icewomen-hub im September 2025), 
+    Nadja und Pouria) zur Prüfung »Data Analyst«  bei der IHK München
 
+- Bearbeitungszeitraum: 2 Tage
 
+- Prüfung: Online vor der IHK München
 
 
 ## Ablauf 

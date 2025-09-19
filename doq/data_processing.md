@@ -94,32 +94,7 @@ autonumber
 
 - tbd
 - => Baseline Score: 
-### Detailsicht auf ML
 
-Die benutzten Machine Learning Modelle werden hier beschrieben
+### ML-Modelle
 
-```mermaid
-sequenceDiagram
-autonumber
-
-loop Acc >Baseline + x?
-        Partitioner->>Learner: Trainingsdaten
-        Partitioner->>Predictor: Testdaten
-        Learner-->Predictor: Training
-        Predictor->Scorer: Vorhersage
-        Scorer->TableOutput: Bewertung
-    end
-```
-
-#### Linear Regression
--tbd
-
-#### K-Nearest Neighbors
--tbd
-
-#### Random Forest
-
--tbd
-#### Gradient Boosting
-
--tbd
+Die erstellten ML-Modelle werden [hier](ml_models.md) detailliert beschrieben.

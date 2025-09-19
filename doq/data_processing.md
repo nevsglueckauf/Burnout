@@ -103,6 +103,8 @@ sequenceDiagram
 autonumber
 
 loop Acc >Baseline + x?
+        Partitioner->>Learner: Trainingsdaten
+        Partitioner->>Predictor: Testdaten
         Learner-->Predictor: Training
         Predictor->Scorer: Vorhersage
         Scorer->TableOutput: Bewertung

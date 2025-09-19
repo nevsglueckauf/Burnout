@@ -5,7 +5,7 @@
 > Aktuell nur ein Platzhalter - hier gibt es (fast) noch nichts zu sehen.
 
 
--  Beiträge zu einer Gruppenarbeit (zusammen mit [Christine](https://github.com/icewomen-hub im September 2025), Nadja und Pouria) zur Prüfung »Data Analyst«  bei der IHK München
+-  Beiträge zu einer Gruppenarbeit (zusammen mit [Christine](https://github.com/icewomen-hub im September 2025)w, Nadja und Pouria) zur Prüfung »Data Analyst«  bei der IHK München
 
 
 

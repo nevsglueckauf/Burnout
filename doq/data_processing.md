@@ -7,12 +7,12 @@ Die Daten der ursprünglichen auf [Kaggle](https://www.kaggle.com/datasets/blurr
 
 Hierbei wurde die Spalte <var>Burn Rate</var> bereits aus der Ursprungsdatei bereits kategorisiert als <var>Burn Risk</var>:
 
-- <var>1</var> = <i>Hohes Risiko für Burnout</i> (>75% Risiko) und 
-- <var>0</var> = <i>Kein Hohes Risiko für Burnout</i> (<=75% Risiko).
+- <var>1</var> = <i>Hohes Risiko für Burnout</i> (```>75%``` Risiko) und 
+- <var>0</var> = <i>Kein Hohes Risiko für Burnout</i> (```<=75%``` Risiko).
 
 
 
-## Python modules and their relations
+### Überblick Datenprozessierung (grob)
 
 ```mermaid
 sequenceDiagram
@@ -29,6 +29,9 @@ autonumber
         participant ExcelReader
         participant Sanitizer
         participant CSVWriter
+        participant DataExplorer
+        participant EDA
+        participant ML
     end
 
     box green PowerBI
@@ -44,9 +47,43 @@ autonumber
 
      
     Gruppe_2->>ExcelReader: Einlesen der Datei
-    CSVWriter->>Dashboard: Daten
-     CSVWriter->>PythonCore: Daten
-    Note right of Datei_IHK: Wurde kateg. Burnout_Risk
-
+    ExcelReader->>Sanitizer: Datenbereinung (nans, unnötige Spalten )
+    Sanitizer->>CSVWriter: Datenübergabe
+    CSVWriter->>Dashboard: Datenübergabe
+    CSVWriter->>PythonCore: Datenübergabe
+    Sanitizer->>DataExplorer: Datenübergabe
+    DataExplorer->>EDA: Datenübergabe
+    EDA->>Baseline: Definition der Baseline
+    DataExplorer->>ML: Datenübergabe
     
 ```
+
+### Detailsicht auf EDA
+
+- tbd
+- => Baseline Score: 
+### Detailsicht auf ML
+
+Die benutzten Machine Learning Modelle werden hier beschrieben
+
+```mermaid
+sequenceDiagram
+autonumber
+
+loop Acc >Baseline + x?
+        Learner-->Predictor: Training
+        Predictor->Scorer: Vorhersage
+        Scorer->TableOutput: Bewertung
+    end
+```
+
+#### Linear Regression
+#### K-Nearest Neighbors
+
+
+#### Random Forest
+
+-tbd
+#### Gradient Boosting
+
+-tbd

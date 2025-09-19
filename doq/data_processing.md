@@ -1,4 +1,4 @@
-# Projekt <i>Burnout der Arbeiterschaft, Vorhersage von Burnout bei Arbeitnehmern</i>
+# Projekt <br><i>Burnout der Arbeiterschaft, <br>Vorhersage von Burnout bei Arbeitnehmern</i>
 - Prosa folgt 
 
 ## Datenprozessierung
@@ -11,8 +11,6 @@ Hierbei wurde die Spalte <var>Burn Rate</var> bereits aus der Ursprungsdatei ber
 - <var>0</var> = <i>Kein Hohes Risiko für Burnout</i> (```<=75%``` Risiko).
 
 ### Projektfluß (sehr grob)
-
-### Überblick Datenprozessierung (grob)
 
 ```mermaid
 sequenceDiagram

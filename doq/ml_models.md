@@ -1,4 +1,4 @@
-# Projekt <i>Burnout der Arbeiterschaft, Vorhersage von Burnout bei Arbeitnehmern</i>
+# Projekt <br><i>Burnout der Arbeiterschaft, <br>Vorhersage von Burnout bei Arbeitnehmern</i>
 
 
 ## Detailsicht auf ML

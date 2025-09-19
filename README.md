@@ -2,10 +2,10 @@
 
 > [!NOTE]
 > In German language, because of the primary audience (my current <em>continuing education</em>)
-> Aktuell nur ein Platzhalter - hier gibt es (fast) noch nichts zu sehen
+> Aktuell nur ein Platzhalter - hier gibt es (fast) noch nichts zu sehen.
 
 
--  Beiträge zu einer Gruppenarbeit zur Prüfung »Data Analyst«  bei der IHK München
+-  Beiträge zu einer Gruppenarbeit (mit [Christine](https://github.com/icewomen-hub), Nadja und Pouria) zur Prüfung »Data Analyst«  bei der IHK München
 
 
 
